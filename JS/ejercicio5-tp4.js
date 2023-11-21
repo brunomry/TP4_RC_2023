@@ -69,6 +69,7 @@ elementoSection += `<article class="col-lg-6 text-md-center text-lg-start">
 
 let persona = new Persona("Bruno", 27, "H", "63 kg", "170 cm", 1996);
 
+
 elementoSection += `<article class="col-lg-6 ms-5 ms-lg-0">`;
 persona.mostrarDatos();
 persona.mostrarGeneracion();
