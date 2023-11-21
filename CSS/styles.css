@@ -11,3 +11,8 @@ main{
 .card{
   height: 14rem;
 }
+
+.imgDog{
+  width: 260px;
+  height: 240px;
+}
