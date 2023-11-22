@@ -22,6 +22,589 @@
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
+    <header>
+      <nav class="navbar navbar-expand-md py-4 bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fst-italic text-info" href="index.html">TRABAJO PRÁCTICO N°4</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav w-100 d-flex justify-content-center  fs-5">
+              <li class="nav-item px-2">
+                <a class="nav-link" href="index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle active"
+                  href="#"
+                  aria-current="page"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  EJERCICIOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio1-tp4.html"
+                      >Ejercicio N°1</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio2-tp4.html"
+                      >Ejercicio N°2</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio3-tp4.html"
+                      >Ejercicio N°3</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio4-tp4.html"
+                      >Ejercicio N°4</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio5-tp4.html"
+                      >Ejercicio N°5</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio6-tp4.html"
+                      >Ejercicio N°6</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio7-tp4.html"
+                      >Ejercicio N°7</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio8-tp4.html"
+                      >Ejercicio N°8</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio9-tp4.html"
+                      >Ejercicio N°9</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./PAGES/ejercicio10-tp4.html"
+                      >Ejercicio N°10</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="./PAGES/sobreMi.html">SOBRE MÍ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="py-5" id="main">
+      <section class="container mt-3">
+        <h1 class="text-center bg-primary py-4 rounded text-light">
+          Resolución de Trabajo Práctico N°4 - POO
+        </h1>
+        <div
+          class="accordion accordion-flush mt-3 border"
+          id="accordionExercises"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Ejercicio N°1 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  1- Crea un objeto llamado auto que tenga algunas características como el color,
+                  marca, modelo y si está encendido o apagado. Crea los métodos necesarios para
+                  permitir encender y apagar el auto.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP3_RC_2023/blob/main/JS/ejercicio1-tp3.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio1-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°1</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Ejercicio N°2 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  2-Escribe un programa que cree un objeto "cuenta" con las siguientes propiedades:
+                </p>
+                <ul>
+                  <li>Una propiedad titular con el valor "Alex".</li>
+                  <li>
+                    Una propiedad saldo, teniendo como valor inicial 0.
+                  </li>
+                  <li>Un método ingresar() que permita añadir dinero a la cuenta, pasando la
+                    cantidad como parámetro</li>
+                  <li>
+                    Un método extraer() que permita retirar la cantidad pasada como parámetro.
+                  </li>
+                  <li>
+                    Un método informar() que retorne la información del estado de la cuenta.
+                  </li>
+                </ul>
+                <p>Utiliza este objeto para mostrar la descripción, ingresar y extraer dinero y volver a
+                  mostrar la descripción del estado de la cuenta.</p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio2-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio2-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°2</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Ejercicio N°3 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  3-Escribe una clase que permita crear distintos objetos “rectángulos”, con las
+                  propiedades de alto y ancho, mas los métodos necesarios para modificar y
+                  mostrar sus propiedades, calcular el perímetro y el área
+                </p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio3-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio3-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°3</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Ejercicio N°4 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  4- Escribe una clase Producto para crear objetos. Estos objetos, deben presentar
+                  las propiedades código, nombre y precio, además del método imprime datos, el
+                  cual escribe por pantalla los valores de sus propiedades.
+                  Posteriormente, cree tres instancias de este objeto y guárdalas en un array.
+                  Por último, utilice el método imprime datos para mostrar por pantalla los valores
+                  de los tres objetos instanciados.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio4-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio4-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°4</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                Ejercicio N°5 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  5- Crea una clase llamada Persona que siga las siguientes condiciones:
+                  Sus propiedades son: nombre, edad, DNI, sexo (H hombre, M mujer), peso y altura,
+                  año de nacimiento. Si quieres añadir alguna propiedad extra puedes hacerlo.
+                  Los métodos que se debe poder utilizar son:
+                  mostrarGeneracion: este método debe mostrar un mensaje indicando a qué
+                  generación pertenece la persona creada y cual es el rasgo característico de esta
+                  generación.
+                  Para realizar este método tener en cuenta la siguiente tabla de generaciones:
+                </p>
+                <div class="text-center">
+                  <img src="./IMG/generaciones.jpg" class="img-fluid" alt="tabla de generaciones">
+                </div>
+                <p>esMayorDeEdad: indica si es mayor de edad, devuelve un mensaje indicando que la
+                  persona es mayor de edad.
+                  mostrarDatos: devuelve toda la información del objeto.
+                  generaDNI(): genera un número aleatorio de 8 cifras.</p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio5-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio5-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°5</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix"
+                aria-expanded="false"
+                aria-controls="flush-collapseSix"
+              >
+                Ejercicio N°6 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>6- Crear una clase Libro que contenga al menos las siguientes propiedades:</p>
+                <ul>
+                  <li>IBSN</li>
+                  <li>Título</li>
+                  <li>Autor</li>
+                  <li>Número de páginas</li>
+                </ul>
+                <p>Crear sus respectivos métodos get y set correspondientes para cada propiedad.
+                  Crear el método mostrarLibro() para mostrar la información relativa al libro con el
+                  siguiente formato:
+                </p>
+                <p>“El libro xxx con ISBN xxx creado por el autor xxx tiene páginas xxx”</p>
+                <p>Crear al menos 2 objetos libros y utilizar el método mostrarLibro();</p>
+                <p>Por último, indicar cuál de los 2 objetos “libros” tiene más páginas.</p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio6-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio6-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°6</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSeven"
+                aria-expanded="false"
+                aria-controls="flush-collapseSeven"
+              >
+                Ejercicio N°7 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSeven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>7- Nos piden realizar una agenda telefónica de contactos.</p>
+                <p>Un contacto está definido por un nombre y un teléfono. Se considera que un
+                  contacto es igual a otro cuando sus nombres son iguales.</p>
+                <p>Una agenda de contactos está formada por un conjunto de contactos. Se podrá
+                  crear de dos formas, indicando nosotros el tamaño o con un tamaño por defecto
+                  (10).</p>
+                <p>Los métodos de la agenda serán los siguientes:</p>
+                <ul>
+                  <li>aniadirContacto(Contacto): Añade un contacto a la agenda, sino la agenda
+                    no puede almacenar más contactos indicar por pantalla.</li>
+                  <li>existeContacto(Contacto): indica si el contacto pasado existe o no.</li>
+                  <li>listarContactos(): Lista toda la agenda</li>
+                  <li>buscarContacto(nombre): busca un contacto por su nombre y muestra su
+                    teléfono.</li>
+                  <li>eliminarContacto(Contacto c): elimina el contacto de la agenda, indica si se
+                    ha eliminado o no por pantalla</li>
+                  <li>agendaLlena(): indica si la agenda está llena.</li>
+                  <li>huecosLibres(): indica cuántos contactos más podemos ingresar.</li>
+                </ul>
+                <p>Crea un menú con opciones que serán seleccionadas por el usuario usando un
+                  prompt, las salidas de las operaciones seleccionadas por el usuario se pueden
+                  mostrar en pantalla y por consola.</p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio7-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio7-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°7</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseEight"
+                aria-expanded="false"
+                aria-controls="flush-collapseEight"
+              >
+                Ejercicio N°8 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  8- Crea una clase llamada "Persona" que tenga las propiedades "nombre", "edad" y
+                  "profesión", y los métodos "saludar" y "despedirse". Luego, crea dos objetos de la
+                  clase "Persona" con diferentes valores para sus propiedades y llama a sus métodos
+                  "saludar" y "despedirse".
+                </p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio8-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio8-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°8</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseNine"
+                aria-expanded="false"
+                aria-controls="flush-collapseNine"
+              >
+                Ejercicio N°9 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseNine"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  9- Crea una clase llamada "Animal" que tenga las propiedades "nombre" y "edad", y
+                  el método "emitirSonido". Luego, crea dos clases hijas llamadas "Perro" y "Gato"
+                  que hereden de "Animal" y tengan su propio método "emitirSonido". Finalmente,
+                  crea dos objetos, uno de la clase "Perro" y otro de la clase "Gato", y llama a sus
+                  métodos "emitirSonido" para verificar que cada animal emite el sonido adecuado.
+                </p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio9-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio9-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°9</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTen"
+                aria-expanded="false"
+                aria-controls="flush-collapseTen"
+              >
+                Ejercicio N°10 - TP4
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTen"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExercises"
+            >
+              <div class="accordion-body">
+                <p>
+                  10- crear una clase aeropuerto con las propiedades nombreAeropuerto y lista de
+                  aviones, esta clase deberá contener el método agregarAvion, el cual recibirá un
+                  objeto de tipo Avión, además de un método buscarAvion el cual recibirá el nombre
+                  de un avión y devolverá información en caso de encontrarlo, si no lo encontró
+                  indicar con un mensaje.
+                  Por su parte los aviones tendrán las propiedades: nombre, capacidad, destino, lista
+                  de pasajeros. Los aviones tienen el método abordar el cual permite que un
+                  pasajero suba al avión solo si hay capacidad disponible en el mismo, caso
+                  contrario mostrar un mensaje que indique que el avión está lleno.
+                </p>
+                <p>Crear un objeto de tipo aeropuerto llamado "Aeropuerto Internacional", crear 3
+                  objetos aviones con diferentes destinos. Agregar los 3 aviones al aeropuerto,
+                  buscar un avión y usar el método abordar.</p>
+                <div class="text-center d-flex justify-content-center gap-2">
+                  <a
+                    href="https://github.com/brunomry/TP4_RC_2023/blob/main/JS/ejercicio10-tp4.js"
+                    class="btn btn-outline-dark mt-3"
+                    target="_blank"
+                    >Ver Solución en Github</a
+                  >
+                  <a
+                    href="./PAGES/ejercicio10-tp4.html"
+                    class="btn btn-outline-success mt-3"
+                    >Prueba de Ejercicio N°10</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark p-3">
+      <div class="text-light text-center">
+        <p>
+          @RollingCodeSchool. Comisión 73i. 2023 | Diseñado por Bruno Madozzo
+        </p>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
