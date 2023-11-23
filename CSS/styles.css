@@ -8,20 +8,30 @@ main{
   flex-grow: 1;
 }
 
+/* ej  */
 .card{
   height: 14rem;
 }
 
-.imgDog{
-  width: 260px;
-  height: 240px;
-}
-
+/* ej 5 */
 .imgGeneration{
   width: 600px;
   height: 700px;
 }
 
+/* ej 7 */
+.cardAgenda{
+  width: 400px;
+  height: 100%;
+}
+
+/* ej 9 */
+.imgDog{
+  width: 260px;
+  height: 240px;
+}
+
+/*sobre mi*/
 .imageProfile{
   width: 425px;
   height: 425px;
